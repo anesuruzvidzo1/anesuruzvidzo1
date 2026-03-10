@@ -21,19 +21,19 @@ I care about writing clean, purposeful code that solves real problems.
 
 ## 🚀 Featured Projects
 
-### 🌾 [AI Farming Assistant](https://github.com/anesuruzvidzo1)
+### 🌾 [AI Farming Assistant](https://github.com/rmaidza/AI-Farming-Assistant)
 AI-driven decision support system for small-scale farmers. Built a Python REST backend with MongoDB, integrated real-time weather APIs (NOAA, Open-Meteo), and trained ML models (Random Forest, Gradient Boosting, Neural Networks) for crop recommendation and yield prediction.
 
-### 🔐 [Cyber Anomaly Detection](https://github.com/anesuruzvidzo1)
+### 🔐 [Cyber Anomaly Detection](https://github.com/anesuruzvidzo1/cyber-anomaly-detection)
 End-to-end anomaly detection pipeline that ingests NetFlow data, engineers features, and outputs per-host anomaly scores. Deployed a Dockerized Streamlit dashboard and integrated Elasticsearch/Kibana for SIEM-style automated alerting.
 
 ### 📰 [AI News Summarizer](https://github.com/anesuruzvidzo1/AI-News-Summarizer)
 ETL pipeline that fetches real-time news via API, generates extractive summaries, and classifies articles using TF-IDF and Logistic Regression. Features a Streamlit dashboard and scalable MongoDB storage.
 
-### 💬 [SMS Application](https://github.com/anesuruzvidzo1)
+### 💬 [SMS Application](https://github.com/anesuruzvidzo1/SMS-Application)
 Secure Flask RESTful backend with authentication, session management, and asymmetric encryption (public/private keys) for end-to-end message security over HTTPS.
 
-### 🏥 [Hospital Cost & Reimbursement Analysis](https://github.com/anesuruzvidzo1)
+### 🏥 [Hospital Cost & Reimbursement Analysis](https://github.com/anesuruzvidzo1/hospital-cost-analysis)
 Data analysis project processing CMS cost-report data (2018–2022) using Python, Pandas, and SQL. Enriched with county-level demographics and visualized geographic disparities through an interactive Tableau dashboard.
 
 ---
