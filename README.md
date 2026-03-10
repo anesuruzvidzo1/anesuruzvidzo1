@@ -1,6 +1,6 @@
 # Hi, I'm Anesu Ruzvidzo 👋
 
-Computer Science graduate (May 2026) from Cleveland State University, specializing in **backend engineering**, **data pipelines**, and **machine learning**. I build end-to-end systems — from REST APIs and ETL pipelines to predictive models and interactive dashboards.
+Computer Science graduate (May 2026) from Cleveland State University, specializing in **backend engineering**, **data pipelines**, and **machine learning**. I build end-to-end systems, from REST APIs and ETL pipelines to predictive models and interactive dashboards.
 
 I care about writing clean, purposeful code that solves real problems.
 
