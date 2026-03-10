@@ -38,12 +38,6 @@ Data analysis project processing CMS cost-report data (2018–2022) using Python
 
 ---
 
-## 📊 GitHub Stats
-
-![Anesu's GitHub stats](https://github-readme-stats.vercel.app/api?username=anesuruzvidzo1&show_icons=true&theme=default&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=anesuruzvidzo1&layout=compact&hide_border=true)
-
 ---
 
 ## 📫 Let's Connect
