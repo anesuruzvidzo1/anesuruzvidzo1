@@ -27,7 +27,7 @@ AI-driven decision support system for small-scale farmers. Built a Python REST b
 ### 🔐 [Cyber Anomaly Detection](https://github.com/anesuruzvidzo1)
 End-to-end anomaly detection pipeline that ingests NetFlow data, engineers features, and outputs per-host anomaly scores. Deployed a Dockerized Streamlit dashboard and integrated Elasticsearch/Kibana for SIEM-style automated alerting.
 
-### 📰 [AI News Summarizer](https://github.com/anesuruzvidzo1)
+### 📰 [AI News Summarizer](https://github.com/anesuruzvidzo1/AI-News-Summarizer)
 ETL pipeline that fetches real-time news via API, generates extractive summaries, and classifies articles using TF-IDF and Logistic Regression. Features a Streamlit dashboard and scalable MongoDB storage.
 
 ### 💬 [SMS Application](https://github.com/anesuruzvidzo1)
