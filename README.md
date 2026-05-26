@@ -83,7 +83,6 @@
    (public/private key pairs) for end-to-end message security over HTTPS.
   Relational schema with SQLite and SQLAlchemy implementing SQL injection
   protections and secure multi-user session handling.
-<img width="468" height="225" alt="image" src="https://github.com/user-attachments/assets/835f2cfe-1b6c-4a14-993e-523d75b23c02" />
 
 
   
