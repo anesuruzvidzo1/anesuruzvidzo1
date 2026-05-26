@@ -90,7 +90,5 @@
   
   ## Let's Connect
 
- [![LinkedIn](https://img.shields.io/badge/LinkedIn-Anesu%20Ruzvidzo-blue?style
-  =flat&logo=linkedin)](https://www.linkedin.com/in/anesuruzvidzo)
-  [![Email](https://img.shields.io/badge/Email-anesuruzvidzo1%40gmail.com-red?st
-  yle=flat&logo=gmail)](mailto:anesuruzvidzo1@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/anesuruzvidzo) |
+  [Email](mailto:anesuruzvidzo1@gmail.com)
