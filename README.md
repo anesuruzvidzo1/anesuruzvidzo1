@@ -74,9 +74,8 @@
   Analysis of CMS cost-report data (2018–2022) using Python, Pandas, and SQL.
   Enriched with county-level demographics and visualized geographic
   reimbursement disparities through an interactive Tableau dashboard.
-
-
-   ### [SMS Application]
+  
+  ### [SMS Application]
    (https://github.com/anesuruzvidzo1/SMS-Application)
   Built in collaboration with
   [Michael-A-Hylton](https://github.com/Michael-A-Hylton). Secure Flask RESTful
@@ -84,6 +83,10 @@
    (public/private key pairs) for end-to-end message security over HTTPS.
   Relational schema with SQLite and SQLAlchemy implementing SQL injection
   protections and secure multi-user session handling.
+<img width="468" height="225" alt="image" src="https://github.com/user-attachments/assets/835f2cfe-1b6c-4a14-993e-523d75b23c02" />
+
+
+  
   ---
   
   ## Let's Connect
