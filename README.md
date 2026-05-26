@@ -2,10 +2,10 @@
 
   Computer Science graduate (May 2026) from Cleveland State University. I build
   full-stack TypeScript applications, AI-powered SaaS platforms, and data
-  pipelines — from schema design and RESTful backends to agentic AI systems and
+  pipelines, from schema design and RESTful backends to agentic AI systems and
   ML models.
   
-  Open to relocating to Canada. Actively seeking Junior Full-Stack, Backend, AI
+  Open to relocating. Actively seeking Junior Full-Stack, Backend, AI
   Integration, and Data Engineer roles.
 
   ---
