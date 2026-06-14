@@ -53,7 +53,6 @@ CMS cost-report data (2018-2022) enriched with county-level demographics. Intera
 
 Built with Michael-A-Hylton. Flask RESTful backend with JWT auth, asymmetric encryption for end-to-end message security, SQLite and SQLAlchemy with SQL injection protections.
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=anesuruzvidzo1&show_icons=true&theme=default&hide_border=true&count_private=true)
 
 ## Let's Connect
 
