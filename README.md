@@ -1,65 +1,68 @@
 # Anesu Ruzvidzo
 
-Computer Science graduate (May 2026) from Cleveland State University. I build AI-native products: LLM observability infrastructure, agentic pipelines, and full-stack TypeScript SaaS platforms shipped to production using the Anthropic Claude API directly.
+I build AI infrastructure directly on the Anthropic Claude API. Most recently: Argus, an open-source LLM observability platform for tracing production agent calls in real time. Three products in production. Zero framework dependencies.
 
-Strong in TypeScript, Python, Next.js, Node.js, FastAPI, and PostgreSQL. Experienced with agentic system design, multi-tenant architecture, real-time streaming infrastructure, and end-to-end data pipelines.
-
-Based in Chicago. Open to Applied AI Engineer, Full-Stack Engineer, and Backend Engineer roles in Canada and the United States. Eligible for Canada's Global Talent Stream — two-week work permit processing once sponsored.
+Full-stack, end to end — FastAPI backends, PostgreSQL schemas, Redis pub/sub streaming, and Next.js 15 dashboards. Based in Chicago. Open to Applied AI Engineer and Full-Stack Engineer roles in Canada and the United States. Eligible for Canada's Global Talent Stream.
 
 ---
 
-## What I Work With
+## Stack
 
-**AI & Dev Tools**
-`Anthropic Claude API` `Agentic Systems` `LLM Observability` `Tool Use / Function Calling` `Prompt Engineering` `Claude Code`
-
-**Languages & Frameworks**
-`TypeScript` `Python` `JavaScript` `SQL` `Java` `Next.js` `React` `Node.js` `FastAPI` `Flask` `REST APIs`
-
-**Backend & Databases**
-`PostgreSQL` `Redis` `MongoDB` `SQLite` `Supabase` `Drizzle ORM` `SQLAlchemy` `asyncpg` `Docker` `AWS (S3, EC2)` `CI/CD` `GitHub Actions`
-
-**Data & Machine Learning**
-`Pandas` `NumPy` `Scikit-learn` `PySpark` `Elasticsearch` `ETL/ELT` `Feature Engineering` `Tableau` `Jupyter`
+`TypeScript` `Python` `Next.js` `React` `Node.js` `FastAPI` `Flask`
+`PostgreSQL` `Redis` `Supabase` `Drizzle ORM` `asyncpg` `Docker` `AWS`
+`Anthropic Claude API` `Agentic Systems` `LLM Observability` `Tool Use` `Prompt Engineering`
+`Pandas` `Scikit-learn` `Elasticsearch` `PySpark` `Tableau`
 
 ---
 
-## Featured Projects
+## Projects
 
 **Argus — LLM Observability Platform**
 [GitHub](https://github.com/anesuruzvidzo1/argus) · [Live demo](https://argus-dashboard-phi.vercel.app)
-Open-source observability tool for Anthropic SDK users. Wraps the existing client with zero application code changes, captures every call, and streams traces to a real-time dashboard. FastAPI backend with asyncpg and PostgreSQL for trace storage, Redis pub/sub for fan-out across multiple dashboard viewers, and an SSE-powered Next.js 15 dashboard with session-level cost and latency rollup. Production-deployed on Railway and Vercel with schema auto-migration on startup.
 
-**Lumin — AI-Powered Data Analysis Platform**
+Most observability tools don't understand tokens, tool calls, or session cost rollup. Argus does. Wraps the Anthropic SDK with zero application code changes — every call is captured and streamed to a real-time dashboard. FastAPI + asyncpg + PostgreSQL for trace storage, Redis pub/sub for fan-out, SSE-powered Next.js 15 dashboard. Production-deployed on Railway and Vercel.
+
+**Lumin — AI Data Analysis Platform**
 [GitHub](https://github.com/anesuruzvidzo1/lumin) · [Live demo](https://lumin-tau.vercel.app)
-Full-stack SaaS platform where users upload CSV, JSON, and text files and query their data in plain English via the Claude API, with automatic Vega-Lite chart generation rendered inline. Multi-stage ingestion pipeline batching rows into PostgreSQL with schema metadata extraction for grounded AI context windows. Implemented weekly email digest, client-side PDF export, and AI-generated suggested questions per upload.
+
+Analysts spend hours writing SQL before they can ask a question about their data. Lumin lets them upload a file and ask in plain English. Claude API with schema-aware context injection generates answers and Vega-Lite charts inline. Multi-stage ingestion pipeline, multi-tenant PostgreSQL, weekly digest, PDF export.
 
 **Munda — AI Crop Advisory Platform**
 [GitHub](https://github.com/anesuruzvidzo1/munda) · [Live demo](https://munda-eight.vercel.app)
-Production Next.js 16 full-stack application with TypeScript strict mode, 170 passing tests, and Drizzle ORM. AI-powered crop diagnosis and yield prediction using the Claude API with schema-aware context injection and typed JSON response parsing. Multi-tenant PostgreSQL schema with Supabase Auth and row-level security.
+
+Smallholder farmers in Zimbabwe don't have agronomists on call. Munda gives them AI-powered crop diagnosis and yield advice instantly. Next.js 16, TypeScript strict mode, 170 passing tests, Drizzle ORM, Claude API with typed JSON response parsing. Multi-tenant PostgreSQL with Supabase Auth and row-level security.
 
 **AI Farming Assistant**
-[GitHub](https://github.com/anesuruzvidzo1/AI-Farming-Assistant) — Built in collaboration with rmaidza
-AI-driven decision support system for smallholder farmers. Python REST backend with MongoDB, real-time weather APIs (NOAA, Open-Meteo), and ML models (Random Forest, Gradient Boosting, Neural Networks) for crop recommendation and yield prediction deployed on AWS EC2.
+[GitHub](https://github.com/anesuruzvidzo1/AI-Farming-Assistant) — with rmaidza
+
+Python REST backend, MongoDB, NOAA and Open-Meteo weather APIs, Random Forest / Gradient Boosting / Neural Network ensemble for crop recommendation and yield prediction. Deployed on AWS EC2.
 
 **Cyber Anomaly Detection**
 [GitHub](https://github.com/anesuruzvidzo1/cyber-anomaly-detection)
-End-to-end anomaly detection pipeline ingesting NetFlow data, engineering features, and outputting per-host anomaly scores. Dockerized Streamlit dashboard with Elasticsearch and Kibana integration for SIEM-style automated alerting.
+
+End-to-end pipeline ingesting NetFlow data, engineering per-host anomaly scores, and surfacing alerts through a Dockerized Streamlit dashboard with Elasticsearch and Kibana integration.
 
 **AI News Summarizer**
 [GitHub](https://github.com/anesuruzvidzo1/AI-News-Summarizer)
-ETL pipeline fetching real-time news via API, generating extractive summaries, and classifying articles using TF-IDF and Logistic Regression. Streamlit dashboard with scalable MongoDB storage.
+
+ETL pipeline with extractive summarization and TF-IDF / Logistic Regression article classification. Streamlit dashboard, MongoDB storage.
 
 **Hospital Cost & Reimbursement Analysis**
 [GitHub](https://github.com/anesuruzvidzo1/hospital-cost-analysis)
-Analysis of CMS cost-report data (2018–2022) using Python, Pandas, and SQL. Enriched with county-level demographics and visualized geographic reimbursement disparities through an interactive Tableau dashboard.
+
+CMS cost-report data (2018–2022) enriched with county-level demographics. Interactive Tableau dashboard showing geographic reimbursement disparities across hospital types.
 
 **SMS Application**
-[GitHub](https://github.com/anesuruzvidzo1/SMS-Application) — Built in collaboration with Michael-A-Hylton
-Secure Flask RESTful backend with JWT authentication, session management, and asymmetric encryption (public/private key pairs) for end-to-end message security over HTTPS. Relational schema with SQLite and SQLAlchemy implementing SQL injection protections and secure multi-user session handling.
+[GitHub](https://github.com/anesuruzvidzo1/SMS-Application) — with Michael-A-Hylton
+
+Flask RESTful backend with JWT auth, asymmetric encryption for end-to-end message security, SQLite + SQLAlchemy with SQL injection protections.
+
+---
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=anesuruzvidzo1&show_icons=true&theme=default&hide_border=true&count_private=true)
 
 ---
 
 ## Let's Connect
 
-[LinkedIn](https://linkedin.com/in/anesu-ruzvidzo-428193294) | [Email](mailto:anesuruzvidzo1@gmail.com)
+[LinkedIn](https://linkedin.com/in/anesu-ruzvidzo-428193294) · [Email](mailto:anesuruzvidzo1@gmail.com)
