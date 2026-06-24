@@ -1,36 +1,36 @@
 # Anesu Ruzvidzo
 
-Applied AI Engineer and Full Stack Engineer. I build retrieval systems, LLM observability infrastructure, and production full-stack products on the Anthropic Claude API. Four projects shipped. Based in Chicago on F-1 OPT, open to AI Engineer and Full Stack Engineer roles in Canada and the United States. Eligible for the Global Talent Stream.
+I build AI products end to end on the Anthropic Claude API. Retrieval pipelines with vector search and BM25, LLM observability infrastructure that traces every production call, agentic tool use systems that combine structured data and document retrieval. All shipped full stack with FastAPI, async PostgreSQL, and Next.js. Chicago based. Open to AI Engineer and Full Stack Engineer roles in Canada and the United States. Eligible for the Global Talent Stream.
 
 ## Stack
 
-`TypeScript` `Python` `Next.js` `React` `Node.js` `FastAPI` `Flask`
-`PostgreSQL` `pgvector` `Redis` `Supabase` `Drizzle ORM` `asyncpg` `Docker` `AWS`
-`Anthropic Claude API` `Agentic Systems` `RAG` `Hybrid Search` `Sentence Transformers`
-`LLM Observability` `Tool Use` `Prompt Engineering`
-`Elasticsearch` `Pandas` `Scikit-learn` `PySpark` `Tableau`
+`Anthropic Claude API` `Tool Use` `RAG` `Hybrid Search` `LLM Observability` `Prompt Engineering` `Agentic Systems`
+`Elasticsearch` `pgvector` `Sentence Transformers`
+`TypeScript` `Python` `Next.js` `React` `FastAPI` `Node.js`
+`PostgreSQL` `Redis` `asyncpg` `Supabase` `Drizzle ORM` `Docker` `AWS`
+`Pandas` `Scikit-learn` `PySpark` `Tableau` `Flask`
 
 ## Projects
 
 **BasinIQ — Alberta Energy RAG System**
 [GitHub](https://github.com/anesuruzvidzo1/basiniq) · [Live demo](https://basiniq.vercel.app)
 
-Hybrid retrieval over AER regulatory directives and Alberta well license data. Elasticsearch BM25 and pgvector dense search merged via Reciprocal Rank Fusion, reranked by a cross encoder. Claude tool use loop with two tools wired in: SQL over well data and document search over 392 indexed directive chunks. Multi-turn sessions in PostgreSQL JSONB. Next.js 16 frontend with grouped source citations and session history.
+Hybrid retrieval over AER regulatory directives and Alberta well license data. Elasticsearch BM25 and pgvector dense search merged via Reciprocal Rank Fusion, reranked by a cross encoder. Claude tool use loop with two tools wired in: SQL over well data and document search over 392 indexed directive chunks. Session history persisted in PostgreSQL JSONB. Next.js 16 frontend with grouped source citations.
 
 **Argus — LLM Observability Platform**
 [GitHub](https://github.com/anesuruzvidzo1/argus) · [Live demo](https://argus-dashboard-phi.vercel.app)
 
-Drop-in wrapper around the Anthropic SDK that traces every production call with zero application code changes. Captures tokens, cost, latency, tool calls, and errors. FastAPI backend, asyncpg, PostgreSQL for trace storage, Redis pub/sub for fan-out, SSE-powered Next.js 15 dashboard. Deployed on Railway and Vercel.
+Wrapper around the Anthropic SDK that traces every production call with zero application code changes. Captures tokens, cost, latency, tool calls, and errors per session. FastAPI backend, asyncpg, PostgreSQL for trace storage, Redis pub/sub for fan-out, Next.js 15 dashboard via SSE. Deployed on Railway and Vercel.
 
 **Lumin — AI Data Analysis Platform**
 [GitHub](https://github.com/anesuruzvidzo1/lumin) · [Live demo](https://lumin-tau.vercel.app)
 
-Schema-aware context injection — Claude reads the uploaded data schema and generates SQL, plain English answers, and Vega-Lite charts inline. Multi-stage ingestion pipeline, multi-tenant PostgreSQL, weekly email digest with Resend, PDF export. Drizzle ORM, Supabase Auth, 170 passing tests.
+Claude reads the uploaded data schema and generates SQL, plain English answers, and Vega-Lite charts inline. Staged ingestion pipeline, multi tenant PostgreSQL, weekly email digest with Resend, PDF export. Drizzle ORM, Supabase Auth, 170 passing tests.
 
 **Munda — AI Crop Advisory Platform**
 [GitHub](https://github.com/anesuruzvidzo1/munda) · [Live demo](https://munda-eight.vercel.app)
 
-AI crop diagnosis and yield advisory for Zimbabwean smallholder farmers. Claude API with typed JSON response parsing for structured agronomic recommendations. Next.js 16, TypeScript strict mode, 170 passing tests, Drizzle ORM, multi-tenant PostgreSQL with Supabase Auth and row-level security.
+AI crop diagnosis and yield advisory for Zimbabwean smallholder farmers. Claude API with typed JSON response parsing for structured agronomic recommendations. Next.js 16, TypeScript strict mode, 170 passing tests, Drizzle ORM, multi tenant PostgreSQL with Supabase Auth and row level security.
 
 **AI Farming Assistant**
 [GitHub](https://github.com/anesuruzvidzo1/AI-Farming-Assistant)
