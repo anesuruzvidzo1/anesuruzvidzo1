@@ -1,17 +1,23 @@
 # Anesu Ruzvidzo
 
-I build AI infrastructure directly on the Anthropic Claude API. Most recently: Argus, an open-source LLM observability platform for tracing production agent calls in real time. Three products in production. Zero framework dependencies.
+I build AI-native tools and full-stack applications — retrieval systems, observability platforms, and production-grade products shipped end to end. Currently finishing a CS degree at Cleveland State (May 2026), based in Chicago on F-1/OPT, and open to Applied AI Engineer and Full-Stack Engineer roles in Canada. Eligible for Canada's Global Talent Stream.
 
-Full-stack end to end. FastAPI backends, PostgreSQL schemas, Redis pub/sub streaming, and Next.js 15 dashboards. Based in Chicago. Open to Applied AI Engineer and Full-Stack Engineer roles in Canada and the United States. Eligible for Canada's Global Talent Stream.
+Four projects in production. Every one built from scratch — backend, database, frontend, and deployment.
 
 ## Stack
 
 `TypeScript` `Python` `Next.js` `React` `Node.js` `FastAPI` `Flask`
-`PostgreSQL` `Redis` `Supabase` `Drizzle ORM` `asyncpg` `Docker` `AWS`
-`Anthropic Claude API` `Agentic Systems` `LLM Observability` `Tool Use` `Prompt Engineering`
-`Pandas` `Scikit-learn` `Elasticsearch` `PySpark` `Tableau`
+`PostgreSQL` `pgvector` `Redis` `Supabase` `Drizzle ORM` `asyncpg` `Docker` `AWS`
+`Anthropic Claude API` `Agentic Systems` `RAG` `Hybrid Search` `Sentence Transformers`
+`LLM Observability` `Tool Use` `Prompt Engineering`
+`Elasticsearch` `Pandas` `Scikit-learn` `PySpark` `Tableau`
 
 ## Projects
+
+**BasinIQ — Alberta Energy RAG System**
+[GitHub](https://github.com/anesuruzvidzo1/basiniq) · [Live demo](https://basiniq.vercel.app)
+
+Natural language queries over AER regulatory directives and Alberta well license data. Hybrid retrieval combining Elasticsearch BM25 and pgvector dense search, merged with Reciprocal Rank Fusion and reranked by a cross-encoder. Claude tool use loop with two tools: a SQL query tool over well data and a document search tool over indexed directive chunks. Multi-turn sessions persisted in PostgreSQL JSONB. Next.js 16 frontend with grouped source citations and session history.
 
 **Argus — LLM Observability Platform**
 [GitHub](https://github.com/anesuruzvidzo1/argus) · [Live demo](https://argus-dashboard-phi.vercel.app)
@@ -31,7 +37,7 @@ Smallholder farmers in Zimbabwe don't have agronomists on call. Munda gives them
 **AI Farming Assistant**
 [GitHub](https://github.com/anesuruzvidzo1/AI-Farming-Assistant)
 
-Built with rmaidza. Python REST backend, MongoDB, NOAA and Open-Meteo weather APIs, Random Forest and Gradient Boosting and Neural Network ensemble for crop recommendation and yield prediction. Deployed on AWS EC2.
+Python REST backend, MongoDB, NOAA and Open-Meteo weather APIs, Random Forest and Gradient Boosting and Neural Network ensemble for crop recommendation and yield prediction. Deployed on AWS EC2.
 
 **Cyber Anomaly Detection**
 [GitHub](https://github.com/anesuruzvidzo1/cyber-anomaly-detection)
@@ -51,7 +57,7 @@ CMS cost-report data (2018-2022) enriched with county-level demographics. Intera
 **SMS Application**
 [GitHub](https://github.com/anesuruzvidzo1/SMS-Application)
 
-Built with Michael-A-Hylton. Flask RESTful backend with JWT auth, asymmetric encryption for end-to-end message security, SQLite and SQLAlchemy with SQL injection protections.
+Flask RESTful backend with JWT auth, asymmetric encryption for end-to-end message security, SQLite and SQLAlchemy with SQL injection protections.
 
 
 ## Let's Connect
