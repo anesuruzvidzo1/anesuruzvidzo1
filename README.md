@@ -13,7 +13,7 @@ I build AI products end to end on the Anthropic Claude API. Retrieval pipelines 
 ## Projects
 
 **BasinIQ — Alberta Energy RAG System**
-[GitHub](https://github.com/anesuruzvidzo1/basiniq) · [Live demo](https://basiniq.vercel.app)
+[GitHub](https://github.com/anesuruzvidzo1/basiniq) · [Live demo](https://basiniq-sigma.vercel.app)
 
 Hybrid retrieval over AER regulatory directives and Alberta well license data. Elasticsearch BM25 and pgvector dense search merged via Reciprocal Rank Fusion, reranked by a cross encoder. Claude tool use loop with two tools wired in: SQL over well data and document search over 392 indexed directive chunks. Session history persisted in PostgreSQL JSONB. Next.js 16 frontend with grouped source citations.
 
