@@ -1,6 +1,6 @@
 # Anesu Ruzvidzo
 
-Applied AI Engineer and Full Stack Engineer. I build retrieval systems, LLM observability infrastructure, and production full-stack products on the Anthropic Claude API. Four projects shipped. Based in Chicago on F-1 OPT, targeting Applied AI Engineer and Full Stack Engineer roles in Canada and United States of America. Eligible for the Global Talent Stream.
+Applied AI Engineer and Full Stack Engineer. I build retrieval systems, LLM observability infrastructure, and production full-stack products on the Anthropic Claude API. Four projects shipped. Based in Chicago on F-1 OPT, open to AI Engineer and Full Stack Engineer roles in Canada and the United States. Eligible for the Global Talent Stream.
 
 ## Stack
 
