@@ -2,7 +2,7 @@
 
 I build AI-native tools and full-stack applications — retrieval systems, observability platforms, and production-grade products shipped end to end. Currently finishing a CS degree at Cleveland State (May 2026), based in Chicago on F-1/OPT, and open to Applied AI Engineer and Full-Stack Engineer roles in Canada. Eligible for Canada's Global Talent Stream.
 
-Four projects in production. Every one built from scratch — backend, database, frontend, and deployment.
+Four projects in production. Every one built from scratch: backend, database, frontend, and deployment.
 
 ## Stack
 
