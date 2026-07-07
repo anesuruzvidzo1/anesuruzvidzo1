@@ -8,7 +8,7 @@ I build AI products end to end on the Anthropic Claude API. Retrieval pipelines 
 `Elasticsearch` `pgvector` `Sentence Transformers`
 `TypeScript` `Python` `Next.js` `React` `FastAPI` `Node.js`
 `PostgreSQL` `Redis` `asyncpg` `Supabase` `Drizzle ORM` `Docker` `AWS`
-`Pandas` `Scikit-learn` `PySpark` `Tableau` `Flask`
+`Pandas` `Scikit-learn` `Anomaly Detection` `Geospatial` `Leaflet` `GeoJSON` `PySpark` `Tableau` `Flask`
 
 ## Projects
 
@@ -16,6 +16,11 @@ I build AI products end to end on the Anthropic Claude API. Retrieval pipelines 
 [GitHub](https://github.com/anesuruzvidzo1/basiniq) · [Live demo](https://basiniq-sigma.vercel.app)
 
 Hybrid retrieval over AER regulatory directives and Alberta well license data. Elasticsearch BM25 and pgvector dense search merged via Reciprocal Rank Fusion, reranked by a cross encoder. Claude tool use loop with two tools wired in: SQL over well data and document search over 392 indexed directive chunks. Session history persisted in PostgreSQL JSONB. Next.js 16 frontend with grouped source citations.
+
+**FlareIQ — Alberta Flaring and Venting Intelligence**
+[GitHub](https://github.com/anesuruzvidzo1/flareiq) · [Live demo](https://flareiq-vert.vercel.app)
+
+Independent flaring and venting intelligence covering every Alberta operator, built from public Petrinex volumetric data. ETL over 53 monthly files into per facility flare, vent, and production series. Anomaly detection grounded in AER Directive 060 thresholds with a methane weighted CO2e severity score, an Isolation Forest for multivariate outliers, and temporal upset detection. Alberta Township System land descriptions converted to latitude and longitude, rendered as an interactive Next.js and Leaflet dashboard with a searchable operator watchlist.
 
 **Argus — LLM Observability Platform**
 [GitHub](https://github.com/anesuruzvidzo1/argus) · [Live demo](https://argus-dashboard-phi.vercel.app)
