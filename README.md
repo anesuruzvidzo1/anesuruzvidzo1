@@ -8,7 +8,7 @@ I build AI products end to end on the Anthropic Claude API. Retrieval pipelines 
 `Elasticsearch` `pgvector` `Sentence Transformers`
 `TypeScript` `Python` `Next.js` `React` `FastAPI` `Node.js`
 `PostgreSQL` `Redis` `asyncpg` `Supabase` `Drizzle ORM` `Docker` `AWS`
-`Pandas` `Scikit-learn` `Anomaly Detection` `Geospatial` `Leaflet` `GeoJSON` `PySpark` `Tableau` `Flask`
+`Pandas` `Scikit-learn` `Anomaly Detection` `OR-Tools` `Constraint Optimization` `Geospatial` `Leaflet` `GeoJSON` `PySpark` `Tableau` `Flask`
 
 ## Projects
 
@@ -16,6 +16,11 @@ I build AI products end to end on the Anthropic Claude API. Retrieval pipelines 
 [GitHub](https://github.com/anesuruzvidzo1/basiniq) · [Live demo](https://basiniq-sigma.vercel.app)
 
 Hybrid retrieval over AER regulatory directives and Alberta well license data. Elasticsearch BM25 and pgvector dense search merged via Reciprocal Rank Fusion, reranked by a cross encoder. Claude tool use loop with two tools wired in: SQL over well data and document search over 392 indexed directive chunks. Session history persisted in PostgreSQL JSONB. Next.js 16 frontend with grouped source citations.
+
+**ClosureIQ — Alberta Well Closure Planning**
+[GitHub](https://github.com/anesuruzvidzo1/closureiq) · [Live demo](https://closureiq.vercel.app)
+
+Reads Alberta's public well data and builds the lowest cost plan to meet Directive 088 closure quotas. Parses the AER inactive well inventory, scores each well by compliance and dormancy, estimates liability as a labelled cost band, and runs a Google OR-Tools constraint optimizer that selects which wells to close under a budget, batching by field area to cut mobilization cost. Next.js dashboard with a budget slider comparing the optimized plan to a naive priority baseline.
 
 **FlareIQ — Alberta Flaring and Venting Intelligence**
 [GitHub](https://github.com/anesuruzvidzo1/flareiq) · [Live demo](https://flareiq-vert.vercel.app)
