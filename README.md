@@ -1,13 +1,13 @@
 # Anesu Ruzvidzo
 
-I build AI products end to end on the Anthropic Claude API. Retrieval pipelines with vector search and BM25, LLM observability infrastructure that traces every production call, agentic tool use systems that combine structured data and document retrieval. All shipped full stack with FastAPI, async PostgreSQL, and Next.js. Chicago based. Open to AI Engineer and Full Stack Engineer roles in Canada and the United States. Eligible for the Global Talent Stream.
+I build AI products end to end on the Anthropic Claude API. Retrieval pipelines with vector search and BM25, LLM observability infrastructure that traces every production call, agentic tool use systems that combine structured data and document retrieval. All shipped full stack with FastAPI, async PostgreSQL, and Next.js. Chicago based. Open to Software Engineer, Full Stack and AI Engineer roles in the United States and Canada.
 
 ## Stack
 
 `Anthropic Claude API` `Tool Use` `RAG` `Hybrid Search` `LLM Observability` `Prompt Engineering` `Agentic Systems`
 `Elasticsearch` `pgvector` `Sentence Transformers`
 `TypeScript` `Python` `Next.js` `React` `FastAPI` `Node.js`
-`PostgreSQL` `Redis` `asyncpg` `Supabase` `Drizzle ORM` `Docker` `AWS`
+`PostgreSQL` `Redis` `asyncpg` `Supabase` `Drizzle ORM` `Docker`
 `Pandas` `Scikit-learn` `Anomaly Detection` `OR-Tools` `Constraint Optimization` `Geospatial` `Leaflet` `GeoJSON` `PySpark` `Tableau` `Flask`
 
 ## Projects
@@ -15,7 +15,7 @@ I build AI products end to end on the Anthropic Claude API. Retrieval pipelines 
 **BasinIQ — Alberta Energy RAG System**
 [GitHub](https://github.com/anesuruzvidzo1/basiniq) · [Live demo](https://basiniq-sigma.vercel.app)
 
-Hybrid retrieval over AER regulatory directives and Alberta well license data. Elasticsearch BM25 and pgvector dense search merged via Reciprocal Rank Fusion, reranked by a cross encoder. Claude tool use loop with two tools wired in: SQL over well data and document search over 392 indexed directive chunks. Session history persisted in PostgreSQL JSONB. Next.js 16 frontend with grouped source citations.
+Hybrid retrieval over AER regulatory directives and Alberta well license data. PostgreSQL full-text search and pgvector dense search merged via Reciprocal Rank Fusion, reranked by a cross encoder. Claude tool use loop with two tools wired in: SQL over well data and document search over 392 indexed directive chunks. Session history persisted in PostgreSQL JSONB. Next.js 16 frontend with grouped source citations.
 
 **ClosureIQ — Alberta Well Closure Planning**
 [GitHub](https://github.com/anesuruzvidzo1/closureiq) · [Live demo](https://closureiq.vercel.app)
@@ -30,22 +30,22 @@ Independent flaring and venting intelligence covering every Alberta operator, bu
 **Argus — LLM Observability Platform**
 [GitHub](https://github.com/anesuruzvidzo1/argus) · [Live demo](https://argus-dashboard-phi.vercel.app)
 
-Wrapper around the Anthropic SDK that traces every production call with zero application code changes. Captures tokens, cost, latency, tool calls, and errors per session. FastAPI backend, asyncpg, PostgreSQL for trace storage, Redis pub/sub for fan-out, Next.js 15 dashboard via SSE. Deployed on Railway and Vercel.
+Wrapper around the Anthropic SDK that traces every production call with zero application code changes. Captures tokens, cost, latency, tool calls, and errors per session. FastAPI backend, asyncpg, PostgreSQL for trace storage, Redis pub/sub for fan-out, Next.js 16 dashboard via SSE. Deployed on Railway and Vercel.
 
 **Lumin — AI Data Analysis Platform**
 [GitHub](https://github.com/anesuruzvidzo1/lumin) · [Live demo](https://lumin-tau.vercel.app)
 
-Claude reads the uploaded data schema and generates SQL, plain English answers, and Vega-Lite charts inline. Staged ingestion pipeline, multi tenant PostgreSQL, weekly email digest with Resend, PDF export. Drizzle ORM, Supabase Auth, 170 passing tests.
+Claude reads the uploaded data schema and generates SQL, plain English answers, and Vega-Lite charts inline. Staged ingestion pipeline, multi tenant PostgreSQL, weekly email digest with Resend, PDF export. Drizzle ORM, Supabase Auth, 221 tests across 25 suites.
 
 **Munda — AI Crop Advisory Platform**
 [GitHub](https://github.com/anesuruzvidzo1/munda) · [Live demo](https://munda-eight.vercel.app)
 
-AI crop diagnosis and yield advisory for Zimbabwean smallholder farmers. Claude API with typed JSON response parsing for structured agronomic recommendations. Next.js 16, TypeScript strict mode, 170 passing tests, Drizzle ORM, multi tenant PostgreSQL with Supabase Auth and row level security.
+AI crop diagnosis and yield advisory for Zimbabwean smallholder farmers. Claude API with typed JSON response parsing for structured agronomic recommendations. Next.js 16, TypeScript strict mode, 152 tests, Drizzle ORM, multi tenant PostgreSQL with ownership enforced in the service layer above Supabase Auth.
 
 **AI Farming Assistant**
 [GitHub](https://github.com/anesuruzvidzo1/AI-Farming-Assistant)
 
-Python REST backend, MongoDB, NOAA and Open-Meteo weather APIs, Random Forest and Gradient Boosting and Neural Network ensemble for crop recommendation and yield prediction. Deployed on AWS EC2.
+Python REST backend, MongoDB, NOAA and Open-Meteo weather APIs, Random Forest and Gradient Boosting and Neural Network ensemble for crop recommendation and yield prediction.
 
 **Cyber Anomaly Detection**
 [GitHub](https://github.com/anesuruzvidzo1/cyber-anomaly-detection)
@@ -69,4 +69,4 @@ Flask RESTful backend with JWT auth, asymmetric encryption for end to end messag
 
 ## Let's Connect
 
-[LinkedIn](https://linkedin.com/in/anesu-ruzvidzo-428193294) · [Email](mailto:anesuruzvidzo1@gmail.com)
+[LinkedIn](https://linkedin.com/in/anesuruzvidzo) · [Email](mailto:anesuruzvidzo1@gmail.com)
